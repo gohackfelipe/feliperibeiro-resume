@@ -11,16 +11,13 @@ v1.0, July 14th, 2018
 // Refs
 :link-tvglobo: http://redeglobo.globo.com
 :link-globoplay: https://globoplay.globo.com
+:link-orga: http://optiva.com
+:link-tim: http://www.tim.com.br/sp/para-voce
+:link-chevron: https://www.chevron.com.br
 :link-gmaps: https://goo.gl/maps/gArE2LeZ6xS2
-:link-nextbuild: http://www.nextbuild.nl/
-:link-philips: http://www.lighting.philips.com/
-:link-ihomer: http://www.ihomer.nl/
-:link-ocpp: http://www.openchargealliance.org/
-:link-janderijk: http://www.janderijk.nl/
-:link-beldi: http://www.belde.be/
-:link-cgi: http://www.cgi.com/
-:link-elaad: http://www.elaad.nl/
-:link-alfen: http://www.alfen.nl/
+:link-delphos: http://www.delphos.com.br
+:link-tjrj: http://www.tjrj.jus.br
+:link-stefanini: https://stefanini.com/pt/about/
 
 
 == Personal Details
@@ -49,7 +46,7 @@ Location:: {link-gmaps}[Duque de Caxias, Rio de Janeiro - Brazil]
 <<<
 == Professional experience
 
-=== Head of Cloud/Platform & DevOps Engineer at TV Globo
+=== Head of Cloud/Platform & Devsecops Engineer at TV Globo
 icon:calendar[title="Period"] `Jun 2017 to Now (ongoing)` +
 icon:group[title="Employer"] {link-tvglobo}[TV Globo, role="external", window="_blank"] +
 icon:chevron-circle-right[title="Customer"] {link-globoplay}[Globoplay, role="external", window="_blank"]
@@ -60,8 +57,16 @@ Position:: *Head of Cloud/Platform & DevOps Engineer* +
 Responsible for the design and implementation of the Cloud Platform Architecture and ensuring that implemented 
 services are used for multiple product propositions
 --
-* *Lead of devsecops team* responsible to share the knowledge about tools and devops culture around the company
+* *Competence Lead*
+    ** Set-up the internal development team
+    ** Responsible for the professional/people development for a group of software/devops engineers
+    ** Create agile awareness and implement SCRUM development methodology
+    ** To organize workshops and dojo`s experiencing for new devops tools ways.
+* *Lead of devsecops team* responsible to share the knowledge about tools and devops culture around the company and setup a team responsible for availability, latency,
+performance, efficiency, change management, emergency response and planning of capacity.
 * *Drive the implementation of the Cloud infrastructure* and services using Agile/Scrum/SAFe approach
+* *Definition of strategy to migrate to cloud*
+* *System Optimization* for miniable costs on Cloud Infrastructure
 * Organized various workshops to *create awareness on Cloud architectures and development approach*
 * Implementation of a *Continuous Integration & Deployment environment*
     ** Docker images are build using a Jenkins cluster and pushed to Amazon ECR Docker repositories (Stash -> Jenkins -> AWS ECR) using Jenkins Pipelines
@@ -70,28 +75,17 @@ services are used for multiple product propositions
 * Implemented *Microservice architecture*
     ** Deployment based on *Docker* Images using *AWS ECS Container Services*
     ** Service interfaces are based on *REST and/or Amazon SQS/RabbitMQ AMQP* broker
-    ** Service contracts written using *Rest Application Markup Language (RAML)*
     ** __"Service Discovery"__ based on *Consul*
+    ** __"Trace of Services"__ using *Zipkin*
     ** Service implementations using Python, Node.js
     ** Infrastructure and service monitoring using *CloudWatch/Prometheus*
 
 
 *Technologies used:* +
-Docker, Java, Node.js, Python, Angular, Rest Application Markup Language (RAML), Consul,
-Terraform, AWS Webservices (EC2/ECS/ECR/ELB,S3,CloudWatch,Elasticsearch,RDS), AMQP, RabbitMQ, SQS,
+Docker, Java, Node.js, Python, Javascript, Angular, Consul, Terraform, AWS Webservices, (EC2, ECS, ECR, ELB, S3, CloudWatch, Elasticsearch, RDS,
+CloudFront, Cognito, Certificate Manager, Elastic Beanstalk), RabbitMQ, SQS,
 REST, Tomcat, Linux, Neo4J, Mysql, MongoDB, Oracle, Git, Confluence, 
-Scrum, SAFe (Scaled Agile Framework), Prometheus, Microservices
-
-****
-.Provided platform functionality
-* secured hardware device registration onto Cloud (during bootsequence)
-* device firmware management
-* providing common communication layer using MQTT/AMQP
-* centralized identity management
-* generic Microservice platform (discovery + continuous deployment)
-* unified logging layer
-* centralized monitoring of components
-****
+Scrum, SAFe (Scaled Agile Framework), Prometheus, Microservices, Terraform, Packer, Jenkins, Zipkin
 
 '''
 
@@ -103,12 +97,11 @@ icon:chevron-circle-right[title="Customer"] {link-globoplay}[Globoplay, role="ex
 --
 [horizontal]
 Position:: *Technical Lead/Software Engineer/Architect* +
-Responsible for design & implementation of a web-based platform to tv live shows and corporative solutions. 
+Responsible for design & implementation of a web-based platform to TV Live shows and corporative solutions. 
 --
 
 * *Competence Lead*
-    ** Set-up the internal development team
-    ** Responsible for the professional/people development for a group of software engineers
+    ** Responsible for the technical development for a group of software engineers
     ** Implementation of distributed development environment and process (requirements, development, testing & deployment)
     ** Gathering functional & non-functional requirement
     ** Create agile awareness and implement SCRUM development methodology
@@ -118,117 +111,95 @@ Responsible for design & implementation of a web-based platform to tv live shows
     ** Collaborated with various *stakeholders, clients and internal areas* to develop solutions to aim our telespector
     ** Implementation of different mobile applications, infrastructures and technologies
     ** To build web architectures solutions able to organic capacity expecting 1 million of requests / hour.
-    ** Responsible for the design, development and the implementation of a number of applications for an intranet. Applications have been developed using Node.js
+    ** Responsible for the design, development and the implementation of a number of applications. Applications have been developed using Node.js
     ** Trainer for Cloud and Devops course at TV Globo Tech Academy. Introducing concepts such as devops culture, new approachs,tools and design directives
     ** *Implementing* the design together with a team
 
 *Methodologies & Technologies used:* +
-Java, REST, JMeter, SoapUI, XML, SOAP, JSON, RabbitMQ, Linux, MySQL, Agile
-
-****
-.Provided platform functionality
-* hardware status monitoring
-* self service capabilities for charging unit owners
-* executing firmware updates
-* registration of charging sessions
-* 3rd party data integration
-* event push notifications
-* a RESTful API to allow external system integration
-* protocol implementations for connecting charging units (OCPP)
-* web service connections to external service providers
-****
+Java, Python, Node.js, Javascript, REST, GraphQL, JMeter, SoapUI, XML, SOAP, JSON, RabbitMQ, Linux, MySQL, PostgreSQL, MongoDB, Agile,
+AWS Webservices (EC2, ECS, ECR, ELB, S3, CloudWatch, Elasticsearch, RDS, CloudFront, Cognito, Certificate Manager), Git,
+Android Studio, Xcode
 
 '''
 
-=== Software engineer at Orga Systems
+=== Software Engineer at Orga Systems (Acquired by Redknee)
 icon:calendar[title="Period"] `Jul 2014 to Set 2015` +
-icon:group[title="Employer"] {link-ihomer}[IHomer, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Customer"] {link-beldi}[Belgian Distribution Service, role="external", window="_blank"]
+icon:group[title="Employer"] {link-orga}[Orga Systems (Acquired by Redknee), role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] {link-tim}[Tim Brazil Company, role="external", window="_blank"]
 
 --
 [horizontal]
 Position:: *Software engineer at Orga Systems* +
-Restructure a Java/Web based ERP system and build the internal development organization
+Development a Java/Web based Billing system for communication companys at Brazil
 --
 
-* Set-up the internal development team
-* Implementation of distributed development environment and process (requirements, development, testing & deployment)
-* Gathering functional & non-functional requirement
-* Create agile awareness and implement SCRUM development methodology
+* Implementation of distributed *development* environment and process (requirements, development, testing & deployment)
+* Development of *high traffic* based website for http://www.tim.com.br[Tim Brazil Company]
+* Implementation of different *mobile applications, infrastructures and technologies*
 
 *Methodologies & Technologies used:* +
-Java, JEE, Spring, Hibernate, Javascript, YUI, JBoss, JUnit, JMeter, UML, Jenkins
+Java, JEE, Spring, Struts, JSF, Hibernate, Javascript, ExtJS, JQuery JBoss, JUnit, JMeter, UML, Jenkins, Python, Javascript, Android Studio, Oracle Database
 
 '''
 
 === Software Engineer at Stefanini IT Solutions
 icon:calendar[title="Period"] `Jul 2010 to Jul 2014` +
-icon:group[title="Employer"] {link-cgi}[CMG/LogicaCMG/Logica, role="external", window="_blank"] +
-icon:chevron-circle-right[title="Customer"] Shell, Unilever, GE, Kennisnet, KLM, NS, Aegon, PTT Post, Lyondell
+icon:group[title="Employer"] {link-stefanini}[Stefanini, role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] {link-tjrj}[Rio de Janeiro Courtey of Justice, role="external", window="_blank"]
 
 --
 [horizontal]
-Position:: *Software Engineer/Competence Lead/Innovation Architect*
+Position:: *Software Engineer*
 --
-
-* *Competence Lead*
-    ** Responsible for the professional/people development for a group of +/- 200 software engineers
-* *Innovation Architect*
-    ** Being part of the "Working Tomorrow" innovation incubator creating innovative concepts, technologies & methodologies. Responsible for the architecture, selection, progress and staffing
-* *Software Engineer*
-    ** Implementation of different mobile applications, infrastructures and technologies
-    ** Mobile hardware selection for http://www.klm.nl[KLM] for use in-flight
-    ** Responsible for the design, development and the implementation of a number of applications for an intranet. Applications have been developed using Java on the NetDynamics application server
-    ** Development of high traffic based website for http://www.ns.nl[Dutch Railways]
-    ** Trainer for IBM WebSphere J2EE platform. Introducing concepts such as object orientation, technical directives and design directives
-    ** Implementation of a e-learning platform for http://www.kennisnet.nl[Kennisnet] using Open Source technologies
-    ** First of a kind development of a mobile ticketing platform used by customers like Efteling, Madam Tussaud and Living Tomorrow. Winning the Dutch national ICT Award 2004.
+* Responsible for the design, development and the implementation of a number of applications.
+* Development of high traffic based website for http://www.tjrj.jus.br [Rio de Janeiro Courtey of Justice]
+* Development of Web Applications for Judiciary Public 
 
 *Methodologies & Technologies used:* +
-.Net Compact Framework, OpenNetCF, Java, iAnywhere SQL studio, IBM WebSphere Connection Manager (WECM),
-Eclipse, NetBeans, Java J2SE, Oracle, Web Services, UML, RUP, JUnit, Tomcat, J2EE, PostgreSQL, MMBase,
-Microsoft Pocket Pc, Windows Mobile, Appforge, J2ME, Java MIDP, BEA WebLogic, NetDynamics
+Java, Eclipse, NetBeans, Java J2SE, Oracle, Web Services, UML, JUnit, Tomcat, J2EE, PostgreSQL, Oracle Database, J2ME, OC4j, Struts, JSF,Sencha (ExtJS), SVN
 
 '''
 
 === Programmer at Delphos
 icon:calendar[title="Period"] `Jan 2009 to Jun 2010` +
-icon:group[title="Employer"] {link-janderijk}[Jan de Rijk Logistics, role="external", window="_blank"] +
+icon:group[title="Employer"] {link-delphos}[Delphos, role="external", window="_blank"] +
 
 --
 [horizontal]
-Position:: *IT Support* +
-Internal IT support Employee responsible for internal projects
+Position:: *Programmer* +
+Programmer responsible for development of insurancy projects
 --
 
-* Selection and Implementation of company wide European network. (Wide Area Network)
-* Implementation of a satellite Tracking & Tracing solution for vehicles
-* Optimization of transportation and people planning
-* Implementation of vehicle bound hour registration
+* Responsible for the design, development and the implementation of a number of applications.
+* Development of solutions for Insurancy companys using Oracle technologies as Oracle Forms, Oracle Design and Oracle Reports.
+
+*Methodologies & Technologies used:* +
+Java, Eclipse, NetBeans, Java J2SE, Oracle Database, Web Services, UML, JUnit, Tomcat, Glassfish, J2EE, Oracle Database, Struts, JSF, SVN
 
 '''
 
-=== Intern at Chevron Brazil Petróleo
+=== Developer Intern at Chevron Brazil Petróleo
 icon:calendar[title="Period"] `Mar 2008 to Mar 2009` +
-icon:group[title="Employer"] {link-janderijk}[Jan de Rijk Logistics, role="external", window="_blank"] +
+icon:group[title="Employer"] {link-chevron}[Chevron Brasil, role="external", window="_blank"] +
 
 --
 [horizontal]
-Position:: *IT Support* +
-Internal IT support Employee responsible for internal projects
+Position:: *Developer Intern* +
+Developer Intern for Lubrificants Factory (Texaco)
 --
 
-* Selection and Implementation of company wide European network. (Wide Area Network)
-* Implementation of a satellite Tracking & Tracing solution for vehicles
-* Optimization of transportation and people planning
-* Implementation of vehicle bound hour registration
+* Responsible for the design, development and the implementation of a number of applications. Applications have been developed using Java.
+* Development of solutions for Lubrificants Factory (Texaco) using Oracle technologies as Oracle Forms, Oracle Design and Oracle Reports.
+
+*Methodologies & Technologies used:* +
+Java, Eclipse, NetBeans, Java J2SE, Oracle Database, Web Services, UML, JUnit, SVN
 
 <<<
 == Technical Skills
 
-Containers:: Docker, Docker Compose, Docker Machine, Docker Swarm, AWS ECS
+Containers:: Docker, Docker Compose, Docker Swarm, AWS ECS
 
-Webservices:: SOAP, REST, Rest Application Markup Language(RAML), JSON, SoapUI, Postman, Microservices
+Webservices:: SOAP, REST, JSON, SoapUI, Postman, Microservices
 
 Cloud:: AWS, AWS EC2, AWS ECS, AWS ELB/ALB, AWS ElasticSearch, AWS Lambda, AWS Kibana, AWS SQS, AWS Cognito, Terraform, CloudFormation, Prometheus, Consul
 
@@ -236,13 +207,13 @@ Languages and Specifications:: Java, Node.js, Python, Go, Elixir, JavaScript, As
 
 Software Engineering:: DevOps, ChatOps, Continuous Integration, Continuous Delivery, Unit Testing, Integration Testing
 
-Frameworks and Libraries:: Express.js, Flask, Django, Passport, Lodash, Yarn
+Frameworks and Libraries:: Express.js, Flask, Django, Passport, Lodash, Yarn and much more.. :)
 
 Databases:: MySQL, Oracle, AWS DynamoDB, MongoDB, PostgreSQL
 
 OS:: Linux, Mac OSX, Windows
 
-Protocols:: HTTP, WebSockets, REST, OCPP, AMQP, JMS, MQTT
+Protocols:: HTTP, WebSockets, REST, JMS
 
 Tools:: IntelliJ, Eclipse, JIRA, Git, Jenkins, Sonar, Nexus, JMeter
 
@@ -252,13 +223,12 @@ Methodologies:: TDD, Agile/Scrum, SAFe (Scaled Agile Framework)
 <<<
 == Education
 
-*Graduate* - Rio de Janeiro State University, Computer Science
-
-*Master* - Rio de Janeiro Federal University, *Research*: Agile Development in SOA/Microservices Architecture
-
 [cols="90%,>10%", options="header"]
 |===
 | Name                                                  | Year
+| *Graduate* - Rio de Janeiro State University (UERJ), Computer Science | 2010
+| *Master* - Rio de Janeiro Federal University (UNIRIO), *Research*: Agile Development in SOA/Microservices Architecture | 2020
+| Visual Studio DevOps: Visual Studio and Azure         | 2017
 | AWS Certified Developer - Associate 2018              | ongoing
 | AWS Certified SysOps Administrator - Associate 2018   | ongoing
 | AWS Certified Solutions Architect                     | ongoing
