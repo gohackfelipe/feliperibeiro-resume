@@ -1,6 +1,6 @@
 = Curriculum Vitae
-Felipe Ribeiro <iamfeliperibeiro@gmail.com>
-v1.2, Mar 27th, 2019
+Felipe Ribeiro <emaildofeliperibeiro@gmail.com>
+v4.0, October 27th, 2019
 :toc2:
 :toclevels: 2
 :icons: font
@@ -19,20 +19,16 @@ v1.2, Mar 27th, 2019
 :link-tjrj: http://www.tjrj.jus.br
 :link-stefanini: https://stefanini.com/pt/about/
 :link-resume: https://github.com/gohackfelipe/feliperibeiro-resume
+:link-olx: https://olx.com.br
 
 == Personal Details
 [horizontal]
 Name:: Felipe Ribeiro Santos
 E-mail:: emaildofeliperibeiro@gmail.com
-Academic E-mail:: felipe.santos@uniriotec.br
 Phone:: +5521988989293
-Date of Birthday:: 08/24/1988
 WebSite / Social Media::
-* icon:twitter[] https://twitter.com/gohackfelipe[Twitter, role="external", window="_blank"] 
 * icon:github[] https://github.com/gohackfelipe[GitHub, role="external", window="_blank"]
 * icon:linkedin[] https://linkedin.com/in/1feliperibeiro[LinkedIn, role="external", window="_blank"]
-* icon:facebook[] https://www.facebook.com/eufeliperibeiro[Facebook, role="external", window="_blank"]
-* icon:link[] http://lattes.cnpq.br/2759531476289413[Lattes (CNPQ), role="external", window="_blank"]
 Location:: {link-gmaps}[Duque de Caxias, Rio de Janeiro - Brazil]
 
 [cols="^", options="header"]
@@ -57,8 +53,36 @@ Location:: {link-gmaps}[Duque de Caxias, Rio de Janeiro - Brazil]
 <<<
 == Professional experience
 
+=== Cloud Engineer | Architect at OLX Brasil
+icon:calendar[title="Period"] `Set 2019 to Now (ongoing)` +
+icon:group[title="Employer"] {link-olx}[Olx Brasil, role="external", window="_blank"] +
+
+--
+[horizontal]
+Position:: *Cloud Engineer | Architect at OLX Brasil* +
+Responsible for the design, architecture and implementation of the Cloud Platform and ensuring that implemented 
+services are used for multiple product propositions
+--
+* *Responsible to share the knowledge about new services and bests practices on AWS Cloud Environment around the company*
+* *Definition of strategy and migrating to cloud*
+* *Application of governance concepts with goal of optimize* costs on Cloud
+* Creation of services to monitor, log management and migration
+* *Infrastructure as Code*
+    ** Creation of *Terraform* modules to enable *Continuous Deployment of the infrastructure and services*
+* *Policy as Code*    
+    ** Creation of *Custodian* policies to enable *governance* for all our aws accounts
+
+*Technologies used:* +
+Custodian, Kubernetes, Docker, Java, Node.js, Python, Javascript, Angular, Terraform, AWS Webservices, (EC2, ECS, ECR, ELB, S3, CloudWatch, Elasticsearch, RDS,
+CloudFront, Certificate Manager, Elastic Beanstalk), SQS,
+REST, Tomcat, Linux, Mysql, MongoDB, M3, Oracle, Git, Confluence, 
+Scrum, SAFe (Scaled Agile Framework), Prometheus, Microservices, Terraform, Jenkins, Zipkin
+
+'''
+
+
 === Leader of Devsecops Engineers at TV Globo
-icon:calendar[title="Period"] `Jun 2017 to Now (ongoing)` +
+icon:calendar[title="Period"] `Jun 2017 to Set 2019` +
 icon:group[title="Employer"] {link-tvglobo}[TV Globo, role="external", window="_blank"] +
 
 --
@@ -235,11 +259,20 @@ Methodologies:: TDD, Agile/Scrum, SAFe (Scaled Agile Framework)
 [cols="90%,>10%", options="header"]
 |===
 | Name                                                  | Year
+| MIT - Implementing Enterprise-Wide Transformation     | 2019
 | *Graduate* - Rio de Janeiro State University (UERJ), Computer Science | 2010
-| *Master* - Rio de Janeiro Federal University (UNIRIO), *Research*: Agile Development | 2020
+| *Master* - Rio de Janeiro Federal University (UNIRIO), *Field Research*: Agile Development | 2020
+|===
+
+== Courses
+
+[cols="90%,>10%", options="header"]
+|===
+| Name                                                  | Year
+| ILAC - International Language Academy of Canada       | 2019
 | Visual Studio DevOps: Visual Studio and Azure         | 2017
-| AWS Certified Developer - Associate 2018              | ongoing
-| AWS Certified SysOps Administrator - Associate 2018   | ongoing
+| AWS Certified Developer - Associate 2019              | ongoing
+| AWS Certified SysOps Administrator - Associate 2019   | ongoing
 | AWS Certified Solutions Architect                     | ongoing
 | AWS Certified DevOps Engineer - Professional          | ongoing
 |===
