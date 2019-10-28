@@ -271,10 +271,8 @@ Methodologies:: TDD, Agile/Scrum, SAFe (Scaled Agile Framework)
 | Name                                                  | Year
 | ILAC - International Language Academy of Canada       | 2019
 | Visual Studio DevOps: Visual Studio and Azure         | 2017
-| AWS Certified Developer - Associate 2019              | ongoing
 | AWS Certified SysOps Administrator - Associate 2019   | ongoing
 | AWS Certified Solutions Architect                     | ongoing
-| AWS Certified DevOps Engineer - Professional          | ongoing
 |===
 
 == Interests
