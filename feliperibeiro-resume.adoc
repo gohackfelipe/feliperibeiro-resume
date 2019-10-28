@@ -1,13 +1,13 @@
 = Curriculum Vitae
-Felipe Ribeiro <emaildofeliperibeiro@gmail.com>
-v4.0, October 27th, 2019
+Felipe Ribeiro Santos <emaildofeliperibeiro@gmail.com>
+v4.0, October 2019
+:doctype: book
 :toc2:
 :toclevels: 2
 :icons: font
 :linkattrs:
 :sectlink:
 :source-language: asciidoc
-
 // Refs
 :link-tvglobo: http://redeglobo.globo.com
 :link-globoplay: https://globoplay.globo.com
