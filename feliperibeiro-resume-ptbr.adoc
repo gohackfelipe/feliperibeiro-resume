@@ -1,0 +1,265 @@
+= Curriculum Vitae
+Felipe Ribeiro Santos <emaildofeliperibeiro@gmail.com>
+v4.1, Março 2020
+:doctype: book
+:toc-title: Tabela de Conteúdo
+:toc2:
+:toclevels: 2
+:icons: font
+:linkattrs:
+:sectlink:
+:source-language: asciidoc
+// Refs
+:link-tvglobo: http://redeglobo.globo.com
+:link-globoplay: https://globoplay.globo.com
+:link-orga: http://optiva.com
+:link-tim: http://www.tim.com.br/sp/para-voce
+:link-chevron: https://www.chevron.com.br
+:link-gmaps: https://goo.gl/maps/gArE2LeZ6xS2
+:link-delphos: http://www.delphos.com.br
+:link-tjrj: http://www.tjrj.jus.br
+:link-stefanini: https://stefanini.com/pt/about/
+:link-resume: https://github.com/gohackfelipe/feliperibeiro-resume
+:link-olx: https://olx.com.br
+
+== Informações Pessoais
+[horizontal]
+Nome:: Felipe Ribeiro Santos
+E-mail:: emaildofeliperibeiro@gmail.com
+Mobile:: +5521988989293
+WebSite / Social Media::
+* icon:github[] https://github.com/gohackfelipe[GitHub, role="external", window="_blank"]
+* icon:linkedin[] https://linkedin.com/in/1feliperibeiro[LinkedIn, role="external", window="_blank"]
+Local:: {link-gmaps}[Duque de Caxias, Rio de Janeiro - Brasil]
+
+[cols="^", options="header"]
+|===
+| Software geek, tech guy e músico que adora +
+  viajar, conhecer pessoas novas, trocar experiências e +
+   assistir filmes/séries. +
+  +
+  Hands on Software/Cloud/Platform & DevOps Engineer. +
+  +
+  Um sonhador que adora viver a vida da melhor forma possível.
+  +
+  +
+  Baixe meu CV em markdown. 
+  +
+  +
+  Clique aqui {link-resume}[here, role="external", window="_blank"]
+|===
+
+<<<
+== Experiência Profissional
+
+=== Cloud Engineer | Architect na OLX Brasil
+icon:calendar[title="Period"] `Set 2019 até Agora` +
+icon:group[title="Employer"] {link-olx}[Olx Brasil, role="external", window="_blank"] +
+
+--
+[horizontal]
+Posição:: *Cloud Engineer | Architect na OLX Brasil* +
+Responsável pelo design, arquitetura e implementação da Cloud Platform e por garantir o desenvolvimento de serviços que sejam utilizados por todo o time de desenvolvimento interno.
+--
+* *Responsável por tornar a cultura de desenvolvimento em nuvem fluída caminhando conforme os modelos de boa prática em toda a empresa.*
+* *Definição de estratégia e migração para a nuvem*
+* *Aplicação de conceitos de governança com objetivo de otimizar* custos na nuvem
+* Criação de serviços para monitorar, gerenciar logs para auxílio em estratégias de migração
+* *Infraestrutura como código*
+* *DataOPS*
+* *Política como código*    
+    ** Criação de política para habilitar a *governança* de todas as contas AWS.
+
+*Tecnologias utilizadas:* +
+Custodian, Docker, Java, Node.js, Python, Javascript, Angular, Terraform, AWS Webservices, (EC2, ECS, ECR, ELB, S3, CloudWatch, Elasticsearch, RDS,
+CloudFront, Certificate Manager, Elastic Beanstalk), SQS,
+REST, Tomcat, Linux, Mysql, MongoDB, M3, Oracle, Git, Confluence, 
+Scrum, SAFe (Scaled Agile Framework), Prometheus, Microservices, Terraform, Jenkins, Zipkin
+
+'''
+
+
+=== Team Leader dos Engenheiros Devops na TV Globo
+icon:calendar[title="Period"] `Jun 2017 até Set 2019` +
+icon:group[title="Employer"] {link-tvglobo}[TV Globo, role="external", window="_blank"] +
+
+--
+[horizontal]
+Posição:: *Líder dos time de Cloud Platform & DevOps Engineer* +
+Responsável pela design e implementação do time de Cloud Plataform a fim de garantir que as implementações fosse adotada em múltiplos produtos no negócio da Tv Globo.
+--
+* *Competence Lead*
+    ** Conceituação do time e operação.
+    ** Responsável pelo desenvolvimento de pessoas.
+    ** Adequação e adoção ágil utilizando metodologias como SCRUM e SAFE.
+    ** Promoção de workshops e dojo`s experiencing para novos desenvolvedores no propósito da ambientação com as ferramentas utilizadas na operação dos produtos pelo time.
+* *Liderança* responsável por promover o compartilhamento de experiências no desenvolvimento de produtos, cultura ágil e foco em pilares como availability, latency,
+performance, efficiency, change management, emergency response and planning of capacity.
+* *Definição de estratégias para migração para nuvem *
+* *Optimization* para viabilidade mínima de custos de infraestrutura na nuvem
+* Provisionamento de ambientes seguindo estratégias de *Continuous Integration & Deployment*
+* *Infraestrutura como código*
+* Operação de ambientes de arquitetura em *Microservices*
+    ** Operação de deploy baseados em imagens *Docker* utilizando *AWS ECS Container*
+    ** __"Service Discovery"__ com *Consul*
+    ** __"Trace de Serviços"__ com *Zipkin*
+    ** Implementação utilizando __"Python, Node.js"__
+    ** Monitoração de infraestrutura e serviços utilizando __"CloudWatch/Prometheus"__
+
+
+*Tecnologias utilizadas:* +
+Docker, Java, Node.js, Python, Javascript, Angular, Consul, Terraform, AWS Webservices, (EC2, ECS, ECR, ELB, S3, CloudWatch, Elasticsearch, RDS,
+CloudFront, Cognito, Certificate Manager, Elastic Beanstalk), RabbitMQ, SQS,
+REST, Tomcat, Linux, Neo4J, Mysql, MongoDB, Oracle, Git, Confluence, 
+Scrum, SAFe (Scaled Agile Framework), Prometheus, Microservices, Terraform, Packer, Jenkins, Zipkin
+
+'''
+
+=== Technical Lead/Software Engineer/Architect na TV Globo
+icon:calendar[title="Period"] `Jun 2015 até Jun 2017` +
+icon:group[title="Employer"] {link-tvglobo}[TV Globo, role="external", window="_blank"] +
+
+--
+[horizontal]
+Posição:: *Technical Lead/Software Engineer/Architect* +
+Responsável pelo design e implementação de plataformas Web para utilização em programas de tv ao vivo e soluções corporativas.
+--
+
+* *Competencia em Liderança*
+    ** Responsável pelo desenvolvimento técnico de um grupo de engenheiros de software
+    ** Implementação de um ambiente e processo de desenvolvimento distribuído (requisitos, desenvolvimento, teste e implantação)
+    ** Criação de uma cultura ágil e adoção de metodologias nesse contexto
+* *Inovação em Arquitetura*
+    ** Integrangte do time de desenvolvimento ágil, criando conceitos, tecnologias e metodologias inovadoras.
+* *Engenheiro de Software*
+    ** Colaboração com os *stakeholders, clientes e áreas internas* para desenvolver soluções que atinjam nosso telespetor
+    ** Implementação de aplicações mobile, infraestruturas e tecnologias.
+    ** Construção de soluções de arquiteturas web capazes de suportar picos de 1 milhão de solicitações / 15 minutos.
+    ** Responsável pelo design, desenvolvimento e implementação de diversas aplicações aos propósitos da Tv Globo.
+    ** Professor de Cloud e Devops na Academia de Tecnologia da Tv Globo. Introduzindo conceitos sobre a cultura devops, ferramentas e design.
+
+*Metodologias & tecnologias utilizadas:* +
+Java, Python, Node.js, Javascript, REST, GraphQL, JMeter, SoapUI, XML, SOAP, JSON, RabbitMQ, Linux, MySQL, PostgreSQL, MongoDB, Agile,
+AWS Webservices (EC2, ECS, ECR, ELB, S3, CloudWatch, Elasticsearch, RDS, CloudFront, Cognito, Certificate Manager), Git,
+Android Studio, Xcode
+
+'''
+
+=== Software Engineer na Orga Systems (Adquirido pela Redknee)
+icon:calendar[title="Period"] `Jul 2014 até Set 2015` +
+icon:group[title="Employer"] {link-orga}[Orga Systems (Adquirido pela Redknee), role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] {link-tim}[Tim Brasil Company, role="external", window="_blank"]
+
+--
+[horizontal]
+Posição:: *Engenheiro de Software na Orga Systems* +
+Desenvolvimento de um sistema de cobrança baseado em Java / Web para empresas de comunicação no Brasil
+--
+
+* Desenvolvimento de *website com alto tráfego* para http://www.tim.com.br [Tim Brasil Company]
+* Implementação de diferentes *aplicações móveis, infraestruturas e tecnologias*
+
+*Metodologias & tecnologias utilizadas:* +
+Java, JEE, Spring, Struts, JSF, Hibernate, Javascript, ExtJS, JQuery JBoss, JUnit, JMeter, UML, Jenkins, Python, Javascript, Android Studio, Oracle Database
+
+'''
+
+=== Engenheiro de Software na Stefanini IT Solutions
+icon:calendar[title="Period"] `Jul 2010 até Jul 2014` +
+icon:group[title="Employer"] {link-stefanini}[Stefanini, role="external", window="_blank"] +
+icon:chevron-circle-right[title="Customer"] {link-tjrj}[Tribunal de Justiça do Estado do Rio de Janeiro, role="external", window="_blank"]
+
+--
+[horizontal]
+Posição:: *Engenheiro de Software*
+Implementação dos principais de serviços de Consulta Processual para o público judiciário.
+--
+* Outsourcing no Tribunal de Justiça do Estado do Rio de Janeiro
+* Desenvolvimento de site com alto tráfego para http://www.tjrj.jus.br
+* Desenvolvimento de Aplicações Web para o Poder Judiciário
+
+*Metodologias & tecnologias utilizadas:* +
+Java, Eclipse, NetBeans, Java J2SE, Oracle, Web Services, UML, JUnit, Tomcat, J2EE, PostgreSQL, Oracle Database, J2ME, OC4j, Struts, JSF,Sencha (ExtJS), SVN
+
+'''
+
+=== Programador na Delphos
+icon:calendar[title="Period"] `Jan 2009 até Jun 2010` +
+icon:group[title="Employer"] {link-delphos}[Delphos, role="external", window="_blank"] +
+
+--
+[horizontal]
+Posição:: *Programador* +
+Programador responsável pelo desenvolvimento de software para área de seguros
+--
+
+* Responsável pelo design, desenvolvimento e implementação de diversas aplicações.
+* Desenvolvimento de soluções para seguradoras utilizando tecnologias como Oracle Forms, Oracle Design e Oracle Reports.
+
+*Metodologias & tecnologias utilizadas:* +
+Java, Eclipse, NetBeans, Java J2SE, Oracle Database, Web Services, UML, JUnit, Tomcat, Glassfish, J2EE, Oracle Database, Struts, JSF, SVN
+
+'''
+
+=== Estagiário em Desenvolvimento na Chevron Brasil
+icon:calendar[title="Period"] `Mar 2008 até Mar 2009` +
+icon:group[title="Employer"] {link-chevron}[Chevron Brasil, role="external", window="_blank"] +
+
+--
+[horizontal]
+Posição:: *Estagiário em Desenvolvimento* 
+--
+
+* Responsável pelo design, desenvolvimento e implementação de diversas aplicações utilizando a linguagem Java.
+* Desenvolvimento de soluções para a Fábrica de Lubrificantes (Texaco) utilizando tecnologias como Oracle Forms, Oracle Design e Oracle Reports.
+
+*Methodologies & Technologies used:* +
+Java, Eclipse, NetBeans, Java J2SE, Oracle Database, Web Services, UML, JUnit, SVN
+
+<<<
+== Skills Técnicos
+
+Containes:: Docker, Docker Compose, Docker Swarm, AWS ECS
+
+Webservices:: SOAP, REST, JSON, SoapUI, Postman, Microservices
+
+Cloud:: AWS, AWS EC2, AWS ECS, AWS ELB/ALB, AWS ElasticSearch, AWS Lambda, AWS Kibana, AWS SQS, AWS Cognito, Terraform, CloudFormation, Prometheus, Consul
+
+Linguagens e especificações:: Java, Node.js, Python, JavaScript, AsciiDoc, HTML5, Markdown, Shell scripting, XML, CSS, Latex
+
+Software Engineering:: DevOps, ChatOps, Continuous Integration, Continuous Delivery, Unit Testing, Integration Testing
+
+Frameworks e Bibliotecas:: Express.js, Flask, Django, Passport, Lodash, Yarn and much more.. :)
+
+Databases:: MySQL, Oracle, AWS DynamoDB, MongoDB, PostgreSQL
+
+OS:: Linux, Mac OSX, Windows
+
+Protocolos:: HTTP, WebSockets, REST, JMS
+
+IDE:: IntelliJ, Eclipse, JIRA, Git, Jenkins, Sonar, Nexus, JMeter
+
+Metodologias:: TDD, Agile/Scrum, SAFe (Scaled Agile Framework)
+
+
+<<<
+== Educação
+
+[cols="90%,>10%", options="header"]
+|===
+| Nome                                                  | Ano
+| MIT - Implementing Enterprise-Wide Transformation     | 2019
+| *Graduação* - Rio de Janeiro State University (UERJ), Computer Science | 2010
+| *Mestrado* - Universidade Federal do Estado do Rio de Janeiro (UNIRIO), *Field Research*: Desenvolvimento Ágil | 2020
+|===
+
+== Cursos
+
+[cols="90%,>10%", options="header"]
+|===
+| Nome                                                  | Ano
+| ILAC - International Language Academy of Canada       | 2019
+| Visual Studio DevOps: Visual Studio and Azure         | 2017
+| AWS Certified SysOps Administrator - Associate 2019   | ongoing
+| AWS Certified Solutions Architect                     | ongoing
+|===
